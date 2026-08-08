@@ -11,7 +11,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 # Environment Variables
 TELEGRAM_BOT_TOKEN = os.getenv("8603485658:AAFln80CJvxYxClYiOQccRBlFBCjj9RHq2E")
-OPENAI_API_KEY = os.getenv("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")
+OPENAI_API_KEY = os.getenv("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")
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
