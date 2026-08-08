@@ -10,8 +10,8 @@ from openai import OpenAI
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # Environment Variables
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+TELEGRAM_BOT_TOKEN = os.getenv("8603485658:AAFln80CJvxYxClYiOQccRBlFBCjj9RHq2E")
+OPENAI_API_KEY = os.getenv("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")
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
